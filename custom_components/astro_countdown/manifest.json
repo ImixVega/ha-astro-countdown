@@ -1,0 +1,13 @@
+{
+  "domain": "astro_countdown",
+  "name": "Astro Countdown",
+  "version": "0.1.0",
+  "config_flow": true,
+  "codeowners": [
+    "@ImixVega"
+  ],
+  "requirements": [],
+  "iot_class": "calculated",
+  "documentation": "https://github.com/ImixVega/ha-astro-countdown#readme",
+  "issue_tracker": "https://github.com/ImixVega/ha-astro-countdown/issues"
+}

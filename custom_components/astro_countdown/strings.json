@@ -1,0 +1,20 @@
+{
+  "title": "Astro Countdown",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Lokalizacja obserwacji",
+        "description": "Lokalne odliczanie co minutę. Noc astronomiczna: Słońce poniżej -18°.",
+        "data": {
+          "name": "Nazwa lokalizacji",
+          "latitude": "Szerokość geograficzna",
+          "longitude": "Długość geograficzna",
+          "elevation": "Wysokość n.p.m. (m)",
+          "time_zone": "Strefa czasowa (np. Europe/Warsaw)"
+        }
+      }
+    },
+    "error": {"invalid_timezone": "Nieprawidłowa strefa czasowa"},
+    "abort": {"already_configured": "Ta lokalizacja została już dodana"}
+  }
+}
